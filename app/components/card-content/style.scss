@@ -1,0 +1,32 @@
+& {
+  .card-content {
+    padding: 60px;
+    border-radius: 0 0 2px 2px;
+
+    .info-headings {
+      max-width:75%;
+
+      h1, h2, h3, h4, h5, h6, span {
+        font-family: 'Raleway', sans-serif;
+      }
+
+      h2 {
+        display: block;
+        width: 100%;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+      }
+
+      h5 {
+        display: block;
+        width: 100%;
+        font-weight: 300;
+        margin-top: -10px;
+        margin-bottom: 30px;
+        font-size: 1.2em;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+      }
+    }
+  }
+}
